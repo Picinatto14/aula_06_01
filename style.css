@@ -1,38 +1,82 @@
 * {
-    margin: 0px;
+    margin: 5px;
     padding: 0px;
 }
 
 body {
-    background-color: #f5f5db;
+    text-align: center;
+    background-color: #ffff78;
 }
 .container {
-    padding: 5px;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-around;
 }
+
+.servico .item-servico {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 200px;
+
+    padding: 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
 
 
 #box1 {
-    background-color: #62dede;
+    background-color: #e74328;
     width: 200px;
     height: 200px;
-    border: 3px solid #455d20;
+    border: 10px solid #000000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 #box2 {
-    background-color: #8762de;
+
+    background-color: #4103fc;
     width: 200px;
     height: 200px;
-    border: 3px solid #455d20;
+    border: 10px solid #000000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 #box3 {
-    background-color: #bee39e;
+    background-color: #03a306;
     width: 200px;
     height: 200px;
-    border: 3px solid #455d20;
+    border: 10px solid #000000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 #box4 {
-    background-color: #097171;
+    background-color: #5e03a3;
     width: 200px;
     height: 200px;
-    border: 3px solid #455d20;
+    border: 10px solid #000000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
